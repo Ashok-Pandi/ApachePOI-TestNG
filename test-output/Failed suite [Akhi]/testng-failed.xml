@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Akhi]]">
+  <test name="PrimusBankLoginModule (failed)(failed)">
+    <classes>
+      <class name="feb23.SecondtestCase">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- feb23.SecondtestCase -->
+      <class name="feb22.Firstclass">
+        <methods>
+          <include name="branches"/>
+          <include name="setup"/>
+          <include name="roles"/>
+        </methods>
+      </class> <!-- feb22.Firstclass -->
+    </classes>
+  </test> <!-- PrimusBankLoginModule (failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Akhi]] -->

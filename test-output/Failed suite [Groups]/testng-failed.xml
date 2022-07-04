@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Groups]]">
+  <test name="Smoke Testing(failed)(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="feb22.Firstclass">
+        <methods>
+          <include name="roles"/>
+        </methods>
+      </class> <!-- feb22.Firstclass -->
+      <class name="feb23.SecondtestCase">
+        <methods>
+          <include name="division"/>
+        </methods>
+      </class> <!-- feb23.SecondtestCase -->
+    </classes>
+  </test> <!-- Smoke Testing(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Groups]] -->

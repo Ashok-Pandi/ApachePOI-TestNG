@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Akhi">
+<parameter name="URL" value="www.google.com"/>
+
+<test name="primusbank">
+<parameter name="URL1" value="www.primusbank.com"/>
+<parameter name="URL" value="overiden URL for suite level"/>	
+<classes>
+<class name="feb22.Firstclass"/>
+
+</classes>
+</test>
+
+<test name="Calculator">
+<parameter name="URL2" value="www.qedgecalculator.com"/>
+<classes>
+<class name="feb23.SecondtestCase"/>
+
+</classes>
+</test>
+
+<test name="OrangHRM">
+<parameter name="URL3" value="www.OrangeHRM.com"/>
+<classes>
+<class name="feb23.ThirdTestcase">
+</class>
+</classes>
+</test>
+
+</suite>
+
+

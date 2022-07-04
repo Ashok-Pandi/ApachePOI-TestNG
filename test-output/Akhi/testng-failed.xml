@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Akhi]">
+  <parameter name="URL3" value="www.OrangeHRM.com"/>
+  <parameter name="URL2" value="www.qedgecalculator.com"/>
+  <parameter name="URL1" value="www.primusbank.com"/>
+  <parameter name="URL" value="overiden URL for suite level"/>
+  <test name="primusbank(failed)">
+    <parameter name="URL1" value="www.primusbank.com"/>
+    <parameter name="URL" value="overiden URL for suite level"/>
+    <classes>
+      <class name="feb22.Firstclass">
+        <methods>
+          <include name="branches"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- feb22.Firstclass -->
+      <class name="feb23.SecondtestCase">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- feb23.SecondtestCase -->
+    </classes>
+  </test> <!-- primusbank(failed) -->
+</suite> <!-- Failed suite [Akhi] -->
