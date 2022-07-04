@@ -1,4 +1,4 @@
-package mar16;
+package day4;
 
 
 
@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(mar16.ListenerTest.class)
+@Listeners(day4.ListenerTest.class)
 public class Testcase 
 {
 	WebDriver driver =  new FirefoxDriver();

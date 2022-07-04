@@ -1,4 +1,4 @@
-package feb23;
+package day2;
 
 import java.util.concurrent.TimeUnit;
 

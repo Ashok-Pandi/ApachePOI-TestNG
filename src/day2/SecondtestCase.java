@@ -1,4 +1,4 @@
-package feb23;
+package day2;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
